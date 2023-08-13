@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3e4ed014-b4c9-4bb8-89b0-99e949970260}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Tkinter\pyg.txt" />
+    <Content Include="Tkinter\py\tank.PNG" />
+    <Content Include="Tkinter\Tkinter\1 Введение в модуль tkinter. Создание графического интерфейса\TkInterColorCharts %281%29.png" />
+    <Content Include="Tkinter\Tkinter\1 Введение в модуль tkinter. Создание графического интерфейса\TkInterColorCharts.png" />
+    <Content Include="Tkinter\Tkinter\1 Введение в модуль tkinter. Создание графического интерфейса\М2У1 лист.png" />
+    <Content Include="Tkinter\Tkinter\10 Знакомство с pygame. Понятие спрайт. Бесконечный цикл\Car1.png" />
+    <Content Include="Tkinter\Tkinter\11 Понятие слоя в игре. Случайное расположение Спрайта. Анимация фона игры\Car1_1.png" />
+    <Content Include="Tkinter\Tkinter\11 Понятие слоя в игре. Случайное расположение Спрайта. Анимация фона игры\gr.png" />
+    <Content Include="Tkinter\Tkinter\11 Понятие слоя в игре. Случайное расположение Спрайта. Анимация фона игры\line.png" />
+    <Content Include="Tkinter\Tkinter\11 Понятие слоя в игре. Случайное расположение Спрайта. Анимация фона игры\road.png" />
+    <Content Include="Tkinter\Tkinter\12 События клавиатуры. Обработка событий\Car2.png" />
+    <Content Include="Tkinter\Tkinter\12 События клавиатуры. Обработка событий\gr.png" />
+    <Content Include="Tkinter\Tkinter\12 События клавиатуры. Обработка событий\line.png" />
+    <Content Include="Tkinter\Tkinter\12 События клавиатуры. Обработка событий\road.png" />
+    <Content Include="Tkinter\Tkinter\14 Взаимодействие спрайтов. Продолжение. Создание зависимых элементов игры\canister.png" />
+    <Content Include="Tkinter\Tkinter\14 Взаимодействие спрайтов. Продолжение. Создание зависимых элементов игры\Car1.png" />
+    <Content Include="Tkinter\Tkinter\14 Взаимодействие спрайтов. Продолжение. Создание зависимых элементов игры\Car2.png" />
+    <Content Include="Tkinter\Tkinter\14 Взаимодействие спрайтов. Продолжение. Создание зависимых элементов игры\fuel.png" />
+    <Content Include="Tkinter\Tkinter\14 Взаимодействие спрайтов. Продолжение. Создание зависимых элементов игры\gr.png" />
+    <Content Include="Tkinter\Tkinter\14 Взаимодействие спрайтов. Продолжение. Создание зависимых элементов игры\line.png" />
+    <Content Include="Tkinter\Tkinter\14 Взаимодействие спрайтов. Продолжение. Создание зависимых элементов игры\road.png" />
+    <Content Include="Tkinter\Tkinter\15 Создание меню игры. Вызов функции в бесконечном цикле\btn_exit.png" />
+    <Content Include="Tkinter\Tkinter\15 Создание меню игры. Вызов функции в бесконечном цикле\btn_play.png" />
+    <Content Include="Tkinter\Tkinter\15 Создание меню игры. Вызов функции в бесконечном цикле\menu.png" />
+    <Content Include="Tkinter\Tkinter\17 Создание уровней\afrika_l.png" />
+    <Content Include="Tkinter\Tkinter\17 Создание уровней\afrika_r.png" />
+    <Content Include="Tkinter\Tkinter\17 Создание уровней\gora_l.png" />
+    <Content Include="Tkinter\Tkinter\17 Создание уровней\gora_r.png" />
+    <Content Include="Tkinter\Tkinter\17 Создание уровней\gorod_l.png" />
+    <Content Include="Tkinter\Tkinter\17 Создание уровней\gorod_r.png" />
+    <Content Include="Tkinter\Tkinter\17 Создание уровней\pesok.png" />
+    <Content Include="Tkinter\Tkinter\18 Пауза игры. Создание препятствий\pause.png" />
+    <Content Include="Tkinter\Tkinter\18 Пауза игры. Создание препятствий\water.png" />
+    <Content Include="Tkinter\Tkinter\2 Виджеты в tkinter. Класс Button. Понятие функции\раздатка_фигуры.jpg" />
+    <Content Include="Tkinter\Tkinter\20 Создание меню. Toolbar\exit24.png" />
+    <Content Include="Tkinter\Tkinter\9 Работа с графическими файлами. Класс filedialog, ImageTK\logo_alg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Tkinter\py\1.py" />
+    <Compile Include="Tkinter\py\2.py" />
+    <Compile Include="Tkinter\py\3.py" />
+    <Compile Include="Tkinter\py\9.py" />
+    <Compile Include="Tkinter\py\array.py" />
+    <Compile Include="Tkinter\py\base.py" />
+    <Compile Include="Tkinter\py\bl.py" />
+    <Compile Include="Tkinter\py\bloknot.py" />
+    <Compile Include="Tkinter\py\bloknot2.py" />
+    <Compile Include="Tkinter\py\bloknot3.py" />
+    <Compile Include="Tkinter\py\bottom.py" />
+    <Compile Include="Tkinter\py\circle.py" />
+    <Compile Include="Tkinter\py\collide.py" />
+    <Compile Include="Tkinter\py\func.py" />
+    <Compile Include="Tkinter\py\oop.py" />
+    <Compile Include="Tkinter\py\pack.py" />
+    <Compile Include="Tkinter\py\pacman.py" />
+    <Compile Include="Tkinter\py\pg.py" />
+    <Compile Include="Tkinter\py\ro.py" />
+    <Compile Include="Tkinter\py\round.py" />
+    <Compile Include="Tkinter\py\sc.py" />
+    <Compile Include="Tkinter\py\snake.py" />
+    <Compile Include="Tkinter\py\tklesson1.py" />
+    <Compile Include="Tkinter\py\tkpaint.py" />
+    <Compile Include="Tkinter\py\while.py" />
+    <Compile Include="Tkinter\py\числа.py" />
+    <Compile Include="Tkinter\Tkinter\1 Введение в модуль tkinter. Создание графического интерфейса\test_tk.py" />
+    <Compile Include="Tkinter\Tkinter\10 Знакомство с pygame. Понятие спрайт. Бесконечный цикл\m3_u1 _test.py" />
+    <Compile Include="Tkinter\Tkinter\11 Понятие слоя в игре. Случайное расположение Спрайта. Анимация фона игры\m3_u2 _student.py" />
+    <Compile Include="Tkinter\Tkinter\11 Понятие слоя в игре. Случайное расположение Спрайта. Анимация фона игры\m3_u2 _test.py" />
+    <Compile Include="Tkinter\Tkinter\12 События клавиатуры. Обработка событий\m3_u3 _student.py" />
+    <Compile Include="Tkinter\Tkinter\12 События клавиатуры. Обработка событий\m3_u3 _test.py" />
+    <Compile Include="Tkinter\Tkinter\13 Взаимодействие спрайтов. Group\m3_u4 _student.py" />
+    <Compile Include="Tkinter\Tkinter\13 Взаимодействие спрайтов. Group\m3_u4 _test.py" />
+    <Compile Include="Tkinter\Tkinter\14 Взаимодействие спрайтов. Продолжение. Создание зависимых элементов игры\m3_u5 _student.py" />
+    <Compile Include="Tkinter\Tkinter\14 Взаимодействие спрайтов. Продолжение. Создание зависимых элементов игры\m3_u5 _test.py" />
+    <Compile Include="Tkinter\Tkinter\15 Создание меню игры. Вызов функции в бесконечном цикле\m3_u6 _student.py" />
+    <Compile Include="Tkinter\Tkinter\15 Создание меню игры. Вызов функции в бесконечном цикле\m3_u6 _test.py" />
+    <Compile Include="Tkinter\Tkinter\16 Подсчет очков. Подключение музыки\m3_u7 _student.py" />
+    <Compile Include="Tkinter\Tkinter\16 Подсчет очков. Подключение музыки\m3_u7 _test.py" />
+    <Compile Include="Tkinter\Tkinter\17 Создание уровней\m3_u8 _student.py" />
+    <Compile Include="Tkinter\Tkinter\17 Создание уровней\m3_u8 _test.py" />
+    <Compile Include="Tkinter\Tkinter\18 Пауза игры. Создание препятствий\m3_u9 _student.py" />
+    <Compile Include="Tkinter\Tkinter\18 Пауза игры. Создание препятствий\m3_u9 _test.py" />
+    <Compile Include="Tkinter\Tkinter\19 Введение в PyQt5\m4u1_test.py" />
+    <Compile Include="Tkinter\Tkinter\2 Виджеты в tkinter. Класс Button. Понятие функции\m2u2.py" />
+    <Compile Include="Tkinter\Tkinter\20 Создание меню. Toolbar\m4_u2_test.py" />
+    <Compile Include="Tkinter\Tkinter\3 Отслеживание мыши. Переключатель\m2u3.py" />
+    <Compile Include="Tkinter\Tkinter\4 Глобальные и локальные переменные. Использование значений в нескольких функциях. Заливка виджетов\m2u4.py" />
+    <Compile Include="Tkinter\Tkinter\4 Глобальные и локальные переменные. Использование значений в нескольких функциях. Заливка виджетов\m2u4_student.py" />
+    <Compile Include="Tkinter\Tkinter\5 Виджет Scale. Расположение виджетов в окне. Создание инструмента Ластик\m2u5.py" />
+    <Compile Include="Tkinter\Tkinter\5 Виджет Scale. Расположение виджетов в окне. Создание инструмента Ластик\m2u5_student_OSX.py" />
+    <Compile Include="Tkinter\Tkinter\5 Виджет Scale. Расположение виджетов в окне. Создание инструмента Ластик\m2u5_student_win_linux.py" />
+    <Compile Include="Tkinter\Tkinter\6 Создание инструмента Распылитель. Настройка кистей. Random\m2u6_student_OSx.py" />
+    <Compile Include="Tkinter\Tkinter\6 Создание инструмента Распылитель. Настройка кистей. Random\m2u6_student_win_linux.py" />
+    <Compile Include="Tkinter\Tkinter\6 Создание инструмента Распылитель. Настройка кистей. Random\m2u6_test.py" />
+    <Compile Include="Tkinter\Tkinter\7 Сохранение. Модуль PIL. Доступность виджета по условию\m2u7_student_win.py" />
+    <Compile Include="Tkinter\Tkinter\7 Сохранение. Модуль PIL. Доступность виджета по условию\m2u7_test_OSX.py" />
+    <Compile Include="Tkinter\Tkinter\7 Сохранение. Модуль PIL. Доступность виджета по условию\m2u7_test_win.py" />
+    <Compile Include="Tkinter\Tkinter\8 Сложение строк. Класс Colorchooser. Кортеж. Класс ttk\m2u8_student.py" />
+    <Compile Include="Tkinter\Tkinter\8 Сложение строк. Класс Colorchooser. Кортеж. Класс ttk\m2u8_student_OSx.py" />
+    <Compile Include="Tkinter\Tkinter\8 Сложение строк. Класс Colorchooser. Кортеж. Класс ttk\m2u8_test_color.py" />
+    <Compile Include="Tkinter\Tkinter\9 Работа с графическими файлами. Класс filedialog, ImageTK\m2u9_student.py" />
+    <Compile Include="Tkinter\Tkinter\9 Работа с графическими файлами. Класс filedialog, ImageTK\m2u9_test.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tkinter" />
+    <Folder Include="Tkinter\py" />
+    <Folder Include="Tkinter\Tkinter\" />
+    <Folder Include="Tkinter\Tkinter\1 Введение в модуль tkinter. Создание графического интерфейса" />
+    <Folder Include="Tkinter\Tkinter\10 Знакомство с pygame. Понятие спрайт. Бесконечный цикл" />
+    <Folder Include="Tkinter\Tkinter\11 Понятие слоя в игре. Случайное расположение Спрайта. Анимация фона игры" />
+    <Folder Include="Tkinter\Tkinter\12 События клавиатуры. Обработка событий" />
+    <Folder Include="Tkinter\Tkinter\13 Взаимодействие спрайтов. Group" />
+    <Folder Include="Tkinter\Tkinter\14 Взаимодействие спрайтов. Продолжение. Создание зависимых элементов игры" />
+    <Folder Include="Tkinter\Tkinter\15 Создание меню игры. Вызов функции в бесконечном цикле" />
+    <Folder Include="Tkinter\Tkinter\16 Подсчет очков. Подключение музыки" />
+    <Folder Include="Tkinter\Tkinter\17 Создание уровней" />
+    <Folder Include="Tkinter\Tkinter\18 Пауза игры. Создание препятствий" />
+    <Folder Include="Tkinter\Tkinter\19 Введение в PyQt5" />
+    <Folder Include="Tkinter\Tkinter\2 Виджеты в tkinter. Класс Button. Понятие функции" />
+    <Folder Include="Tkinter\Tkinter\20 Создание меню. Toolbar" />
+    <Folder Include="Tkinter\Tkinter\3 Отслеживание мыши. Переключатель" />
+    <Folder Include="Tkinter\Tkinter\4 Глобальные и локальные переменные. Использование значений в нескольких функциях. Заливка виджетов" />
+    <Folder Include="Tkinter\Tkinter\5 Виджет Scale. Расположение виджетов в окне. Создание инструмента Ластик" />
+    <Folder Include="Tkinter\Tkinter\6 Создание инструмента Распылитель. Настройка кистей. Random" />
+    <Folder Include="Tkinter\Tkinter\7 Сохранение. Модуль PIL. Доступность виджета по условию" />
+    <Folder Include="Tkinter\Tkinter\8 Сложение строк. Класс Colorchooser. Кортеж. Класс ttk" />
+    <Folder Include="Tkinter\Tkinter\9 Работа с графическими файлами. Класс filedialog, ImageTK" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

@@ -1,0 +1,2 @@
+def Play():
+    print("bye")
